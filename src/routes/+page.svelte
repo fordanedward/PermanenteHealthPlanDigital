@@ -88,11 +88,12 @@
 <script>
     // Define functions for button actions
     function handleLogin() {
-      alert("Login Clicked");
+    window.location.href = '/loginMember';
     }
-  
-    function handleRegister() {
-      alert("Register Clicked");
+
+     function handleRegister() {
+    // You can keep or change this as needed
+    alert('Register Clicked');
     }
   </script>
   
@@ -123,7 +124,7 @@
         </p>
   
         <!-- Buttons -->
-        <div class="mt-6 flex gap-4 justify-center">
+        <div class="mt-6 flex gap-4 justify-start">
           <button
             class="bg-[#1e3a66] text-white px-6 py-2 rounded-lg font-semibold hover:bg-[#162b4e]"
             on:click={handleLogin}

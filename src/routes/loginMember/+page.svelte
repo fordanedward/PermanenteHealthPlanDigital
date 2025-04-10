@@ -81,7 +81,7 @@
   <div class="login-container">
     <div class="login-box">
       <img src="/images/digital member portal.png" alt="PHP Logo" class="logo" />
-      <b><h2>Welcome Member!</h2></b>
+      <b><h2 style ="font-size: 1.3rem;">Welcome Member!</h2></b>
   
       {#if error}
         <div class="error">{error}</div>
@@ -100,7 +100,7 @@
       <button on:click={handleLogin}>Login</button>
   
       <div class="register">
-        Don’t have a member account? <a href="/register">Register</a>
+        Don’t have a member account? <a href="/registerMember">Register</a>
       </div>
     </div>
   </div>

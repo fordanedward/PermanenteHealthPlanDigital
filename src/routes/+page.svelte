@@ -92,8 +92,7 @@
     }
 
      function handleRegister() {
-    // You can keep or change this as needed
-    alert('Register Clicked');
+    window.location.href = '/registerMember';
     }
   </script>
   
@@ -101,10 +100,6 @@
     <!-- Navigation Bar -->
     <nav class="w-full flex justify-between items-center px-10 py-4 bg-transparent">
       <h1 class="text-white text-2xl font-bold">PHP Digital Member Portal</h1>
-      <div class="space-x-6">
-        <a href="#" class="text-white text-lg hover:underline">Home</a>
-        <a href="#" class="text-white text-lg hover:underline">About</a>
-      </div>
     </nav>
   
     <!-- Hero Section -->
@@ -129,7 +124,7 @@
             class="bg-[#1e3a66] text-white px-6 py-2 rounded-lg font-semibold hover:bg-[#162b4e]"
             on:click={handleLogin}
           >
-            Login
+            Login as Member
           </button>
           <button
             class="border-2 border-[#1e3a66] text-[#1e3a66] px-6 py-2 rounded-lg font-semibold hover:bg-[#1e3a66] hover:text-white"

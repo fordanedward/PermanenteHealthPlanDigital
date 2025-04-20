@@ -96,10 +96,14 @@
     }
   </script>
   
-  <div class="bg-[#1e3a66] min-h-screen flex flex-col items-center">
+  <div class="bg-[#003366] min-h-screen flex flex-col items-center">
     <!-- Navigation Bar -->
     <nav class="w-full flex justify-between items-center px-10 py-4 bg-transparent">
       <h1 class="text-white text-2xl font-bold">PHP Digital Member Portal</h1>
+      <div class="space-x-6">
+        <a href="#" class="text-white text-lg hover:underline">Home</a>
+        <a href="/about" class="text-white text-lg hover:underline">About</a>
+      </div>
     </nav>
   
     <!-- Hero Section -->

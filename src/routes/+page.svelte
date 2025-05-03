@@ -20,7 +20,30 @@
       text-decoration: none;
       margin: 0 1rem;
       font-size: 1.125rem;
+      transition: all 0.3s ease;
+      position: relative;
     }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      bottom: -3px;
+      left: 0;
+      background-color: white;
+      transition: width 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      transform: scale(1.05);
+      color: #a0c4ff; /* optional soft blue on hover */
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
   
     .hero-section {
       display: flex;
@@ -79,7 +102,7 @@
     }
 
     .logo {
-    width: 400px;
+    width: 550px;
     height: auto;
     }
 
@@ -100,9 +123,9 @@
     <!-- Navigation Bar -->
     <nav class="w-full flex justify-between items-center px-10 py-4 bg-transparent">
       <h1 class="text-white text-2xl font-bold">PHP Digital Member Portal</h1>
-      <div class="space-x-6">
-        <a href="#" class="text-white text-lg hover:underline">Home</a>
-        <a href="/about" class="text-white text-lg hover:underline">About</a>
+      <div class="nav-links flex">
+        <a href="#" class="text-lg">Home</a>
+        <a href="/about" class="text-lg">About</a>
       </div>
     </nav>
   

@@ -1,3 +1,12 @@
+# Permanente Health Plan Digital Member Portal
+
+The PHP Member Portal is a web/mobile application designed to streamline the registration, evaluation, approval, and management of members for the Permanente Health Plan (PHP) in Olongapo City. 
+
+## Features
+
+### Member Side
+
+
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
